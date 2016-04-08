@@ -1,0 +1,30 @@
+body {
+    font-family: 'Georgia', serif;
+    font-size: 14px;
+    width: 100%;
+    max-width: 800px;
+    margin: 1em auto;
+    color: rgb(64, 32, 0);
+    background-color: rgb(248, 242, 218);
+}
+
+#contents {
+    font-size: 120%;
+}
+
+hr {
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+a {
+    color: #b50;
+}
+
+.under {
+    font-family: monospace;
+    font-size: 80%;
+}
