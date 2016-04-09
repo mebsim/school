@@ -30,7 +30,7 @@ To calculate the new speed of this particle, the law of conservation of momentum
 
 $$P_{new}=P_1+P_1$$
 
-$$m_{new}v_{new}=m_1v_1+m_2v_2$$
+$$m\_{new}v\_{new}=m_1v_1+m_2v_2$$
 
 However, if \\(m_{new}=m_1+m_2\\) then we have
 
