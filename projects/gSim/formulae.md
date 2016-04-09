@@ -1,6 +1,6 @@
-# Explanation for gSim formulae
+# Explanation for gSim formulae (2D)
 
-The fundamental formula behind gSim is based on two formulae:
+gSim is based on two formulae:
 
 $$F=ma$$
 
@@ -21,6 +21,8 @@ $$d = \sqrt{(x_1-x_2)^2+(y_1-y_2)^2}$$
 The algorithm for computing the accelerations of each particle has time complexity `O(n^2)`.
 
 This is because there are two for loops: For each particle, the effect from all the other particles are calculated.
+
+These calculations are done for both the x and y components of the speed.
 
 As well, the algorithm checks for collisions between particles. When such collisions occur, the particle combine.
 
