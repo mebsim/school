@@ -24,4 +24,9 @@ Date:   Thu Apr 7, 2016
     Decided to go with raw OpenGL (via pyglet).
 
 
+Author: Mason X
+Date:   Fri Apr 8, 2016
+    Realized that raw OpenGL is very hard and difficult to use in Python.
+    Starting looking to write simulator in C first.
+
 ```
