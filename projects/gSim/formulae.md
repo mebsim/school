@@ -14,7 +14,7 @@ $$a = \frac{G\frac{m_1m_2}{d^2}}{m_1}$$
 
 $$a = \frac{Gm_2}{d^2}$$
 
-where $d$ is the distance between the two mass particles, calculated using Pythagoras' formula:
+where \(d\) is the distance between the two mass particles, calculated using Pythagoras' formula:
 
 $$d = \sqrt{(x_1-x_2)^2+(y_1-y_2)^2}$$
 
@@ -26,10 +26,10 @@ As well, the algorithm checks for collisions between particles. When such collis
 
 To calculate the new speed of this particle, the law of conservation of momentum is used.
 
-$$P_new=P_1+P_1$$
+$$P_n_e_w=P_1+P_1$$
 
 $$m_newv_new=m_1v_1+m_2v_2$$
 
-However, if $m_new=m_1+m_2$ then we have
+However, if \(m_n_e_w=m_1+m_2\) then we have
 
-$$v_new=\frac{m_1v_1+m_2v_2}{m_1+m_2}$$
+$$v_n_e_w=\frac{m_1v_1+m_2v_2}{m_1+m_2}$$
