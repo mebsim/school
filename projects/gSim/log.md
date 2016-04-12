@@ -24,4 +24,15 @@ Date:   Thu Apr 7, 2016
     Decided to go with raw OpenGL (via pyglet).
 
 
+Author: Mason X
+Date:   Fri Apr 8, 2016
+    Realized that raw OpenGL is very hard and difficult to use in Python.
+    Starting looking to write simulator in C first.
+
+Author: Mason X
+Date:   Tue Apr 12, 2016
+    Found links on how to project 3D coords to 2D.
+    Began writing C code to test out first.
+
+
 ```
