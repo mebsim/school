@@ -34,5 +34,13 @@ Date:   Tue Apr 12, 2016
     Found links on how to project 3D coords to 2D.
     Began writing C code to test out first.
 
+Author: Mason X
+Date:   Wed Apr 20, 2016
+    Threw out all my 3D attempts from previous weeks after finding a way to
+    do it in PyGame:
+    http://codentronix.com/2011/04/20/simulation-of-3d-point-rotation-with-python-and-pygame/
 
+Author: Mason X
+Date:   Thu Apr 21, 2016
+    It works in PyGame! (kinda). Still going to have to work out some of the kinks.
 ```
