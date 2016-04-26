@@ -43,4 +43,17 @@ Date:   Wed Apr 20, 2016
 Author: Mason X
 Date:   Thu Apr 21, 2016
     It works in PyGame! (kinda). Still going to have to work out some of the kinks.
+    (read: I have no idea why it doesn't work)
+
+Author: Mason X
+Date:   Tue Apr 26, 2016
+    Re-read the article and some other ones (such as
+    http://www.flipcode.com/archives/Plotting_A_3D_Point_On_A_2D_Screen.shtml )
+    to get a better understanding of how the code works. Hopefully now I can
+    fix the problems I'm having.
+
+Author: Mason X
+Date:   Tue Apr 26, 2016
+    Reworked the projection code. It works now! :D
+
 ```
