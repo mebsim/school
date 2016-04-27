@@ -28,11 +28,11 @@ $$d = \sqrt{(x_1-x_2)^2+(y_1-y_2)^2+(z_1-z_2)^2}$$
 
 However, this acceleration is the combined amount. In order to get the individual accelerations for each axis for a given particle (#1), we need to split the vectors:
 
-$$a_x = a\frac{x_1}{d} = \frac{Gm_2}{d^2}\frac{x_1}{d} = \frac{Gm_2x_1}{d^3}$$
+$$a_x = a\frac{x_1}{d} = \frac{Gm_2}{d^2}\times\frac{x_1}{d} = \frac{Gm_2x_1}{d^3}$$
 
-$$a_y = a\frac{y_1}{d} = \frac{Gm_2}{d^2}\frac{y_1}{d} = \frac{Gm_2y_1}{d^3}$$
+$$a_y = a\frac{y_1}{d} = \frac{Gm_2}{d^2}\times\frac{y_1}{d} = \frac{Gm_2y_1}{d^3}$$
 
-$$a_x = a\frac{z_1}{d} = \frac{Gm_2}{d^2}\frac{z_1}{d} = \frac{Gm_2z_1}{d^3}$$
+$$a_x = a\frac{z_1}{d} = \frac{Gm_2}{d^2}\times\frac{z_1}{d} = \frac{Gm_2z_1}{d^3}$$
 
 The algorithm for computing the accelerations of each particle has time complexity `O(n^2)`.
 
