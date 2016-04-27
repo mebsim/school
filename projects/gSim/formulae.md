@@ -1,5 +1,7 @@
 # Explanation for gSim formulae (3D)
 
+There are two main parts of gSim that have a strong basis in physics/math: gravity calculations and momentum calculations during collisions.
+
 ## Gravity
 
 There are two main formulae behind gSim:
@@ -31,8 +33,6 @@ $$a_x = a\frac{x_1}{d} = \frac{Gm_2}{d^2}\frac{x_1}{d} = \frac{Gm_2x_1}{d^3}$$
 $$a_y = a\frac{y_1}{d} = \frac{Gm_2}{d^2}\frac{y_1}{d} = \frac{Gm_2y_1}{d^3}$$
 
 $$a_x = a\frac{z_1}{d} = \frac{Gm_2}{d^2}\frac{z_1}{d} = \frac{Gm_2z_1}{d^3}$$
-
-Now, we can add the speeds to the 
 
 The algorithm for computing the accelerations of each particle has time complexity `O(n^2)`.
 
