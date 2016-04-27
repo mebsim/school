@@ -44,7 +44,7 @@ gSim also checks for collisions between particles. When such collisions occur, t
 
 The mass is simply added, and the new area is calculated by the natural log of the mass.
 
-To calculate the new speed of this particle, the law of conservation of momentum is used:
+To calculate the new speed of this particle, [the law of conservation of momentum](https://en.wikipedia.org/wiki/Momentum#Conservation) is used:
 
 $$P_{new}=P_1+P_1$$
 
