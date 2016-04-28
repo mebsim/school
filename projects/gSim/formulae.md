@@ -24,15 +24,21 @@ $$a = \frac{Gm_2}{d^2}$$
 
 where \\(d\\) is the distance between the two mass particles, calculated using Pythagoras' formula:
 
-$$d = \sqrt{(x_1-x_2)^2+(y_1-y_2)^2+(z_1-z_2)^2}$$
+$$d_x = x_1-x_2$$
+
+$$d_y = y_1-y_2$$
+
+$$d_z = z_1-z_2$$
+
+$$d = \sqrt{d_x^2+d_y^2+d_z^2}$$
 
 However, this acceleration is the combined amount. In order to get the individual accelerations for each axis for a given particle (#1), we need to split the vectors:
 
-$$a_x = a\frac{x_1}{d} = \frac{Gm_2}{d^2}\times\frac{x_1}{d} = \frac{Gm_2x_1}{d^3}$$
+$$a_x = a\frac{x_1}{d} = \frac{Gm_2}{d^2}\times\frac{d_x}{d} = \frac{Gm_2d_x}{d^3}$$
 
-$$a_y = a\frac{y_1}{d} = \frac{Gm_2}{d^2}\times\frac{y_1}{d} = \frac{Gm_2y_1}{d^3}$$
+$$a_y = a\frac{y_1}{d} = \frac{Gm_2}{d^2}\times\frac{d_y}{d} = \frac{Gm_2d_y}{d^3}$$
 
-$$a_x = a\frac{z_1}{d} = \frac{Gm_2}{d^2}\times\frac{z_1}{d} = \frac{Gm_2z_1}{d^3}$$
+$$a_x = a\frac{z_1}{d} = \frac{Gm_2}{d^2}\times\frac{d_z}{d} = \frac{Gm_2d_z}{d^3}$$
 
 The algorithm for computing the accelerations of each particle has time complexity `O(n^2)`.
 
