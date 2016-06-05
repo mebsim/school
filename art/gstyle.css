@@ -68,7 +68,10 @@ h1 {
     vertical-align: top;
     display: inline-block;
     max-width: 49%;
+    max-height: 90vh;
     box-sizing: border-box;
+    overflow-y: scroll;
+    float: right;
 }
 
 .detail-name {
