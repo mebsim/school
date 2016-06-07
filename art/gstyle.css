@@ -11,6 +11,15 @@ body {
     margin: 1.5em auto;
 }
 
+.desc {
+    text-align: left;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Georgia', serif;
+    font-size: 1.2em;
+}
+
 a, a:visited, a:active {
     color: #0099FF
 }
@@ -19,6 +28,7 @@ h1 {
     font-size: 5em;
     font-weight: lighter;
     margin-bottom: 0.5em;
+    font-family: sans-serif;
 }
 
 .picbox {
@@ -72,6 +82,7 @@ h1 {
     box-sizing: border-box;
     overflow-y: scroll;
     float: right;
+    font-family: 'Georgia', sans-serif;
 }
 
 .detail-name {
