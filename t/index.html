@@ -1,140 +1,439 @@
-<!DOCTYPE html>
 <html>
+
 <head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
 <style>
-html {
-    font-family: 'Calibri', sans-serif;
-}
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th, td {
-    padding: 15px;
-    text-align: left;
-}
-#g {
- background: rgb(190,7,18);
- color: white;
-}
-#geo {
- background: rgb(148,206,88);
-}
-#e {
- background: rgb(252,13,27);
- color: white;
-}
-#m {
- background: rgb(111,53,158);
- color: white;
-}
-#sc {
- background: rgb(30,177,237);
-}
-#st {
- background: rgb(2,34,94);
- color: white;
-}
-#a {
- background: rgb(255,253,56);
-}
-#f {
- background: rgb(26,175,84);
-}
-#c {
- background: rgb(253,191,45);
-}
+body { font-family: sans-serif; }
 </style>
 </head>
-<body>
 
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Time</th>		
-    <th>Day 1</th>
-    <th>Day 2</th>
-    <th>Day 3</th>
-    <th>Day 4</th>		
-    <th>Day 5</th>
-    <th>Day 6</th>
-    <th>Day 7</th>
-    <th>Day 8</th>
-  </tr>
-<tr>
-    <td>P1</td>
-    <td>8:30-9:50</td>		
-    <td id="g">Gym</td>
-    <td id="geo">History</td>
-    <td id="e">English</td>
-    <td id="m">Math</td>		
-    <td id="sc">Chem</td>
-    <td id="a">Art</td>
-    <td id="f">French</td>	
-    <td id="c">CS</td>
-  </tr>
-  <tr>
-    <td>P2</td>
-    <td>9:55-11:00</td>		
-    <td id="e">English</td>
-    <td id="m">Math</td>
-    <td id="sc">Science</td>	
-    <td id="a">Art</td>
-    <td id="f">French</td>
-    <td id="c">CS</td>
-    <td id="g">Gym</td>
-    <td id="geo">Geo</td>
-  </tr>
-  <tr>
-    <td>Break</td>
-    <td>11:00-11:30</td>		
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>		
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>P3</td>
-    <td>11:30-12:35</td>		
-    <td id="sc">Science</td>
-    <td id="a">Art</td>
-    <td id="f">French</td>		
-    <td id="c">CS</td>
-    <td id="g">Gym</td>
-    <td id="geo">Geo</td>
-    <td id="e">English</td>
-    <td id="m">Math</td>
-  </tr>
-  <tr>
-    <td>Lunch</td>
-    <td>12:35-1:30</td>		
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>		
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>P4</td>
-    <td>1:30-2:35</td>		
-    <td id="a">Art</td>
-    <td id="f">French</td>
-    <td id="c">CS</td>
-    <td id="g">Gym</td>		
-    <td id="geo">Geo</td>
-    <td id="e">English</td>
-    <td id="m">Math</td>
-    <td id="sc">Science</td>
-  </tr>
+<body lang=EN-US>
+
+<div class=WordSection1>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=992
+ style='width:525.0pt;border-collapse:collapse'>
+ <tr style='height:15.9pt'>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:15.9pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='font-size:12.0pt;color:black'>Name</span></b></p>
+  </td>
+  <td width=125 nowrap valign=bottom style='width:66.0pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt;height:15.9pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='font-size:12.0pt;color:black'>Time</span></b></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt;height:15.9pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='font-size:12.0pt;color:black'>Day 1</span></b></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt;height:15.9pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='font-size:12.0pt;color:black'>Day 2</span></b></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt;height:15.9pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='font-size:12.0pt;color:black'>Day 3</span></b></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt;height:15.9pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='font-size:12.0pt;color:black'>Day 4</span></b></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt;height:15.9pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='font-size:12.0pt;color:black'>Day 5</span></b></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt;height:15.9pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='font-size:12.0pt;color:black'>Day 6</span></b></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt;height:15.9pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='font-size:12.0pt;color:black'>Day 7</span></b></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt;height:15.9pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='font-size:12.0pt;color:black'>Day 8</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:14.85pt'>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>P1</span></p>
+  </td>
+  <td width=125 nowrap valign=bottom style='width:66.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>8:30-9:50</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#C00000;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:white'>Gym</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#FFC000;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>History</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#7030A0;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:white'>Math</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#00B050;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>French</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#92D050;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>CS</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#00B0F0;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Chem</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:yellow;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Art</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:red;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:white'>English</span></p>
+  </td>
+ </tr>
+ <tr style='height:14.6pt'>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt;height:14.6pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Break</span></p>
+  </td>
+  <td width=125 nowrap valign=bottom style='width:66.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.6pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>11:00-11:30</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.6pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>&nbsp;</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.6pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>&nbsp;</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.6pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>&nbsp;</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.6pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>&nbsp;</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.6pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>&nbsp;</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.6pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>&nbsp;</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.6pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>&nbsp;</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.6pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='height:14.85pt'>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>P2</span></p>
+  </td>
+  <td width=125 nowrap valign=bottom style='width:66.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>11:30-12:35</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:yellow;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Art</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:red;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:white'>English</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#C00000;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:white'>Gym</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#FFC000;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>History</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#7030A0;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:white'>Math</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#00B050;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>French</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#92D050;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>CS</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#00B0F0;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Chem</span></p>
+  </td>
+ </tr>
+ <tr style='height:14.6pt'>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt;height:14.6pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Lunch</span></p>
+  </td>
+  <td width=125 nowrap valign=bottom style='width:66.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.6pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>12:35-1:30</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.6pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>&nbsp;</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.6pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>&nbsp;</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.6pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>&nbsp;</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.6pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>&nbsp;</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.6pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>&nbsp;</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.6pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>&nbsp;</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.6pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>&nbsp;</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.6pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='height:14.85pt'>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>P3</span></p>
+  </td>
+  <td width=125 nowrap valign=bottom style='width:66.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>1:30-2:35</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#92D050;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>CS</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#00B0F0;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Chem</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:yellow;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Art</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:red;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:white'>English</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#C00000;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:white'>Gym</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#FFC000;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>History</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#7030A0;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:white'>Math</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#00B050;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>French</span></p>
+  </td>
+ </tr>
+ <tr style='height:14.85pt'>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>P4</span></p>
+  </td>
+  <td width=125 nowrap valign=bottom style='width:66.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>2:40-3:45</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#7030A0;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:white'>Math</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#00B050;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>French</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#92D050;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>CS</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#00B0F0;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Chem</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:yellow;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Art</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:red;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:white'>English</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#C00000;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:white'>Gym</span></p>
+  </td>
+  <td width=96 nowrap valign=bottom style='width:51.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#FFC000;padding:0in 5.4pt 0in 5.4pt;height:14.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>History</span></p>
+  </td>
+ </tr>
 </table>
+</div>
+
 </body>
+
 </html>
